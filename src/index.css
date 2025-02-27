@@ -1,0 +1,64 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer base {
+
+    @font-face {
+        font-family: "OpenSans";
+        src: url(../public/fonts/OpenSans-ExtraBold.ttf) format(ttf);
+    }
+
+    @font-face {
+        font-family: "openSans-variable";
+        src: url(../public/fonts/OpenSans-VariableFont_wdth\,wght.ttf) format(ttf);
+    }
+
+    @font-face {
+        font-family: "sans-Bold";
+        src: url(../public/fonts/PTSans-Bold.ttf) format(ttf);
+    }
+
+    @font-face {
+        font-family: "sans-Regular";
+        src: url(../public/fonts/PTSans-Regular.ttf) format(ttf);
+    }
+
+    @font-face {
+        font-family: "Serif-Bold";
+        src: url(../public/fonts/PTSerif-Bold.ttf) format(ttf);
+    }
+
+    @font-face {
+        font-family: "Serif-Regular";
+        src: url(../public/fonts/PTSerif-Regular.ttf) format(ttf);
+    }
+
+    @font-face {
+        font-family: "Sans-italic";
+        src: url(../public/fonts/PTSans-Italic.ttf) format(ttf);
+    }
+
+    @font-face {
+        font-family: "OpenSans-italic";
+        src: url(../public/fonts/OpenSans-Italic-VariableFont_wdth\,wght.ttf) format(ttf);
+    }
+
+    @font-face {
+        font-family: "Serif-italic";
+        src: url(../public/fonts/PTSerif-Italic.ttf) format(ttf);
+    }
+
+    @font-face {
+        font-family: "inter";
+        src: url(../public/fonts/Inter.ttf) format(ttf);
+    }
+
+    @font-face {
+        font-family: "inter-italic";
+        src: url(../public/fonts/Inter-Italic.ttf) format(ttf);
+    }
+
+
+
+}
